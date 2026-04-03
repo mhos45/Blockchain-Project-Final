@@ -10,14 +10,11 @@ TrustInChain/
 │   ├── build/contracts/                 
 │   │   ├── CampaignEscrow.json
 │   │   └── CampaignFactory.json
-│   ├── contracts/
-│   │   ├── .gitkeep
+│   ├── contracts/ 
 │   │   └── TrustInChain.sol
 │   ├── migrations/
-│   │   ├── .gitkeep
 │   │   └── 2_deploy_contracts.js
 │   ├── test/
-│   │   ├── .gitkeep
 │   │   └── trustinchain.test.js
 │   ├── package.json
 │   └── truffle-config.js
@@ -37,8 +34,8 @@ TrustInChain/
 │   │   ├── App.js
 │   │   ├── App.css
 │   │   ├── index.js
-│   │   └── index.css
-│   └── package.json
+│   │   └── indexx.css
+│   └── packagee.json
 │
 └── README.md
 ```
