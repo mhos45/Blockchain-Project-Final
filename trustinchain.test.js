@@ -272,7 +272,7 @@ contract("TrustInChain", (accounts) => {
     it("BLOCKS donation after cancellation", async () => {
       await campaign.cancelCampaign({ from: owner });
       await expectRevert(
-        campaign.donate({ from: donor1, value: web3.utils.toWei("0.2", "ether") }),
+        campaign.donate({ from: donor1, value: web3.utils.toWei("0.1", "ether") }),
         "Campaign is cancelled"
       );
     });
